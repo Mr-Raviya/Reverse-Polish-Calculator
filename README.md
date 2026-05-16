@@ -36,20 +36,6 @@ This computes `(5 * 23) + 2 = 117`.
 - `main.c`: C source implementing the calculator.
 - `README.md`: This file.
 
-## Git / GitHub
-Create a local repo and push to GitHub (example commands):
-
-```
-git init
-git add main.c README.md
-git commit -m "Add Reverse Polish Calculator and README"
-# If you have GitHub CLI installed:
-gh repo create <your-repo-name> --public --source=. --remote=origin --push
-# Or create a repo on github.com, then:
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git branch -M main
-git push -u origin main
-```
 
 ## License
-MIT
+MIT Ravindu Karunarathne
